@@ -8,6 +8,6 @@ public class WifiService implements MobileService {
 
     @Override
     public void close() {
-        System.out.println("WIFI Service started");
+        System.out.println("WIFI Service close");
     }
 }

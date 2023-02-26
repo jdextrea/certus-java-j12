@@ -12,6 +12,9 @@ package com.certus.patronfacade;
 public class PatronFacade {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MobileFachada facade = new MobileFachada();
+        Mobile mobile = facade.on();
+        System.out.println("-------------------");
+        facade.off(mobile);
     }
 }
