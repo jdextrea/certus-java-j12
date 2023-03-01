@@ -9,10 +9,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-/**
- *
- * @author jdextre
- */
 public class Conecta {
     protected Connection conexion;
      ResourceBundle messages = ResourceBundle.getBundle("conexion");
