@@ -6,8 +6,11 @@
 package com.certus.vista.patdao;
 
 import com.certus.DAO.Impl.DaoInquilinosImpl;
+import com.certus.DAO.Impl.DaoInquilinosImplSing;
 import com.certus.DTO.Inquilinos;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -32,7 +35,17 @@ public class PatDao {
         objIn.setDeuda(200.20);
         objIn.setFecha_ingreso(currentDate);
         //Llamar al metodo de Insertar del DAO
-        objDao.inquilinosIns(objIn);
+        //objDao.inquilinosIns(objIn);
+        
+        DaoInquilinosImplSing objDaoSing = new DaoInquilinosImplSing();
+        List<Integer> ids = new ArrayList<Integer>();
+        ids.add(5);
+        ids.add(7);
+        
+        objDaoSing.inquilinosDel(ids);
+        
+        
+        
         
     }
 }
