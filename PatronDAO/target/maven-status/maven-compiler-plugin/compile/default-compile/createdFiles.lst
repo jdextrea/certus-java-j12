@@ -1,0 +1,5 @@
+com\certus\DAO\DaoInquilinos.class
+com\certus\DTO\Inquilinos.class
+com\certus\Librerias\ConectaDB.class
+com\certus\patrondao\PatronDAO.class
+com\certus\DAO\Impl\DaoInquilinosImpl.class
