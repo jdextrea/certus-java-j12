@@ -30,6 +30,9 @@ public class MobileFachada {
         return mobile;
     }
     
+    //public void mostrar(IPad)
+    //---
+    
     public void off(Mobile mobile) {
             //Quiero ver todos los servicios de mobile que estan prendidos, apagar
             for (MobileService service: mobile.getMobileServices()) {
